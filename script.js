@@ -6,15 +6,15 @@ const textoResultado=document.querySelector(".texto-resultado");
 
 const perguntas = [
 {
-    enunciado: "Em nosso cotidiano  ",
+    enunciado: "A nessecidade de tratamento de esgoto se faz cada vez mais presente em nosso dia a dia... ",
     alternativas:[
         {
-        texto:"isso é assustador",
-        afirmacao:"afirmação"
+        texto:"Se faz cada vez mais necessaria por conta do mau descarte.",
+        afirmacao:"Por conta que muitas das vezes são descartados em lagos e rios."
         },
         {
-       texto:"isso é maravilhoso",
-       afirmacao:"afirmação"
+       texto:"Como podem ser tratadas as redes de esgoto.",
+       afirmacao:"Se faz necessario o uso de saneamento basico"
         }
 
     ]
@@ -22,14 +22,14 @@ const perguntas = [
 
 {
     
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma",
+        enunciado: "Entre os principais impactos de mau descarte do esgoto estão.",
         alternativas:[{
-            texto:"Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-            afirmacao:"afirmação"
+            texto:"A poluição de rios e lagos por conta de alguns esgotos serem descartado no rio sem o saneamento basico.",
+            afirmacao:"Essa poluição está muito presente em varias regiões."
         },
         {        
-           texto:"Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-           afirmacao:"afirmação"
+           texto:"Uma dos impactos causados entre eles tambem são a morte de alguns animais de várias especies.  ",
+           afirmacao:"causadas por conta de algumas bacterias que estão presentes no esgoto."
         }        
         ]
     },
@@ -37,29 +37,29 @@ const perguntas = [
 
     {
     
-        enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Ainda sobre os impactos temos tabem alguns fatores principais de falta de rede de esgoto.",
         alternativas:[
             {
-            texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-            afirmacao:"afrimação"
+            texto:"Diarreia e leptospirose, devido à contaminação de água e alimentos, e degrada o meio ambiente.",
+            afirmacao:"por conta da falta de tratamento"
             },
             {
-            texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
-            afirmacao:"afirmação"
+            texto:"Poluição solos, rios e mares, afetando a biodiversidade e o turismo.",
+            afirmacao:"falta de saneamento basico"
             }
         ]
     },
     
     {
     
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Qual uma soluçlão para fazer o tratamento dos esgotos.",
         alternativas:[
             {
-            texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
-            afirmacao:"afirmação"
+            texto:"processos físicos, como gradeamento e sedimentação, para remover sólidos; químicos, que utilizam reagentes para purificar a água; e biológicos, que empregam microrganismos para degradar matéria orgânica.",
+            afirmacao:"soluções para tratamento"
         },
         {
-            texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
+            texto:"As técnicas incluem sistemas como o lodo ativado, reatores anaeróbios.",
             afirmacao:"afirmação"
         }
         ]
