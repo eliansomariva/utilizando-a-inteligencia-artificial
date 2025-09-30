@@ -67,14 +67,14 @@ const perguntas = [
 
     {
     
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+        enunciado: "Quais os impactos possitivo de rede esgoto?",
         alternativas:[
             {
-            texto:"Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+            texto:"reduz o índice de doenças, diminuindo os gastos do sistema público de saúde.",
             afirmacao:"afirmação"
             },
         {
-            texto:"O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+            texto:"Além disso, a geração de emprego e o aumento da renda trazem mais conforto e estabilidade para a população.",
             afirmacao:"afirmação"
         }
         ]
