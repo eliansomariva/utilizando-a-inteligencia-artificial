@@ -13,7 +13,7 @@ const perguntas = [
         afirmacao:"Por conta que muitas das vezes são descartados em lagos e rios."
         },
         {
-       texto:"Como podem ser tratadas as redes de esgoto.",
+       texto:"Não se faz necessário o uso de rede de esgoto.",
        afirmacao:"Se faz necessario o uso de saneamento basico"
         }
 
@@ -28,7 +28,7 @@ const perguntas = [
             afirmacao:"Essa poluição está muito presente em varias regiões."
         },
         {        
-           texto:"Uma dos impactos causados entre eles tambem são a morte de alguns animais de várias especies.  ",
+           texto:"Não temos impzctos negativos somente possitivos.  ",
            afirmacao:"causadas por conta de algumas bacterias que estão presentes no esgoto."
         }        
         ]
@@ -44,7 +44,7 @@ const perguntas = [
             afirmacao:"por conta da falta de tratamento"
             },
             {
-            texto:"Poluição solos, rios e mares, afetando a biodiversidade e o turismo.",
+            texto:"Temos poucos impactos mais inrelevantes.",
             afirmacao:"falta de saneamento basico"
             }
         ]
@@ -59,7 +59,7 @@ const perguntas = [
             afirmacao:"soluções para tratamento"
         },
         {
-            texto:"As técnicas incluem sistemas como o lodo ativado, reatores anaeróbios.",
+            texto:"Descarte incorreto em lagos e rios.",
             afirmacao:"afirmação"
         }
         ]
@@ -74,7 +74,7 @@ const perguntas = [
             afirmacao:"afirmação"
             },
         {
-            texto:"Além disso, a geração de emprego e o aumento da renda trazem mais conforto e estabilidade para a população.",
+            texto:"o descarte servindo alimento para varias espécies de animais.",
             afirmacao:"afirmação"
         }
         ]
@@ -83,7 +83,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
+let historiaFinal = " ";
 
 function mostraPergunta(){
     if (atual >= perguntas.length){
@@ -114,7 +114,7 @@ function mostraPergunta(){
      }
 
      function mostraResultado(){
-        caixaPerguntas.textContent = "Em 2049...";
+        caixaPerguntas.textContent = " ";
         textoResultado.textContent = historiaFinal;
         caixaAlternativas.textContent = "";
      }
